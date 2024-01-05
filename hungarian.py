@@ -103,6 +103,18 @@ st.set_page_config(
   page_icon = ":heart:"
 )
 
+# custom_page = """ 
+# <style>
+# # div.st-c7 {
+# # background-color: #00cc00;color:white;font-size:20px;height:3em;width:30em;border-radius:10px 10px 10px 10px;
+# # }
+# [data-testid="stAppViewContainer"] {
+#   background-color: #e5e5f7;
+# }
+# </style>
+# """
+
+# st.markdown(custom_page, unsafe_allow_html=True)
 st.title("Hungarian Heart Disease")
 st.write(f"**_Model's Accuracy_** :  :green[**{accuracy}**]% (:red[_Do not copy outright_])")
 st.write("")
